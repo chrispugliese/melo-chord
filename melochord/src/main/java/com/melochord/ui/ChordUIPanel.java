@@ -120,9 +120,14 @@ public class ChordUIPanel extends VBox {
             }
 
             Pattern pattern = new Pattern("V0 I[Piano]");
-            for (String[] chord : currentChords) {
-                pattern.add(String.join("+", chord) + "w ");
-            }
+                for (String[] chord : currentChords) {
+                    StringBuilder chordBuilder = new StringBuilder();
+                    for (int i = 0; i < chord.length; i++) {
+                        chordBuilder.append(chord[i]).append("w");
+                        if (i < chord.length - 1) chordBuilder.append("+");
+                    }
+                    pattern.add(chordBuilder.toString()).add(" ");
+                }
 
             FileChooser fileChooser = new FileChooser();
             fileChooser.setTitle("Save Chord Progression As...");
