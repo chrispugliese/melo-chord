@@ -1,1 +1,8 @@
-/Users/chrispugliese/Desktop/git/melo-chord/melochord/src/main/java/com/melochord/app/App.java
+/Users/chrispugliese/Desktop/git/melo-chord/melochord/src/main/java/com/melochord/app/MainApp.java
+/Users/chrispugliese/Desktop/git/melo-chord/melochord/src/main/java/com/melochord/app/MidiExporter.java
+/Users/chrispugliese/Desktop/git/melo-chord/melochord/src/main/java/com/melochord/generators/chord/ChordGenerator.java
+/Users/chrispugliese/Desktop/git/melo-chord/melochord/src/main/java/com/melochord/generators/chord/ChordProgressionGenerator.java
+/Users/chrispugliese/Desktop/git/melo-chord/melochord/src/main/java/com/melochord/generators/melody/MelodyGenerator.java
+/Users/chrispugliese/Desktop/git/melo-chord/melochord/src/main/java/com/melochord/generators/melody/ScaleGenerator.java
+/Users/chrispugliese/Desktop/git/melo-chord/melochord/src/main/java/com/melochord/ui/ChordUIPanel.java
+/Users/chrispugliese/Desktop/git/melo-chord/melochord/src/main/java/com/melochord/ui/MelodyUIPanel.java

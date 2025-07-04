@@ -1,1 +1,8 @@
-com/melochord/app/App.class
+com/melochord/app/MidiExporter.class
+com/melochord/generators/melody/MelodyGenerator.class
+com/melochord/generators/melody/ScaleGenerator.class
+com/melochord/generators/chord/ChordGenerator.class
+com/melochord/app/MainApp.class
+com/melochord/generators/chord/ChordProgressionGenerator.class
+com/melochord/ui/MelodyUIPanel.class
+com/melochord/ui/ChordUIPanel.class

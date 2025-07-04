@@ -97,8 +97,13 @@ public class MelodyGenerator {
         return randomizeNoteLengths;
     }
 
-    public static String[] getNoteLengthNames() {
-        return NOTE_LENGTH_NAMES;
+    public static String getNoteLengthByName(String name) {
+        for (int i = 0; i < NOTE_LENGTH_NAMES.length; i++) {
+            if (NOTE_LENGTH_NAMES[i].equalsIgnoreCase(name)) {
+                return NOTE_LENGTHS[i];
+            }
+        }
+        return "q"; // default fallback
     }
 
     public static String[] getNoteLengths() {
